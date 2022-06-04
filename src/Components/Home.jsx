@@ -1,7 +1,12 @@
-export default function Home(){
-    return(
-        <div>
-            <h1>Hello</h1>
-        </div>
-    )
+import React from 'react'
+import { HiArrowNarrowRight } from "react-icons/hi"
+
+const Home = () => {
+  return (
+    <div className='w-full h-screen bg-[#16143a]'>
+        
+    </div>
+  )
 }
+
+export default Home
