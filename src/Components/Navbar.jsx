@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
             
             {/* menu */}
-                <ul className="hidden md:flex">
+                <ul className="hidden md:flex text-lime-500">
                     <li>Home</li>
                     <li>About</li>
                     <li>Projects</li>
@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
 
             {/* MobMenu */}
-            <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#16143a] flex flex-col justify-center items-center"}>
+            <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#16143a] text-lime-500 flex flex-col justify-center items-center"}>
                 <li className="py-6 text-4xl">Home</li>
                 <li className="py-6 text-4xl">About</li>
                 <li className="py-6 text-4xl">Projects</li>
