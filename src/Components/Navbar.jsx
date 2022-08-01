@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook } from "react-icons/f
 import { HiOutlineMail } from "react-icons/hi"
 import { BsFillPersonLinesFill } from "react-icons/bs"
 import Logo from "../Assets/logo.png"
+import resume from "../Resume/CVTomásTagliaferriEn.docx.pdf"
 
 const Navbar = () => {
 
@@ -58,13 +59,13 @@ const Navbar = () => {
                     </li>
                     <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-red-500">
                         <a className="flex justify-between items-center w-full text-gray-300 pr-0" 
-                        href="">
+                        href="mailto:tomitaglia2000@gmail.com">
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-blue-200">
                         <a className="flex justify-between items-center w-full text-gray-600 pr-0" 
-                        href="/">
+                        href={resume} target="_blank" rel="noopener noreferrer" download="CVTomásTagliaferriEn.docx.pdf">
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
