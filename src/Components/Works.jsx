@@ -20,16 +20,16 @@ const Works = () => {
                 >
                     
                     {/* Hover effects */}
-                    <div className="opacity-0 group-hover:opacity-100">
+                    <div className="opacity-0 group-hover:opacity-100 hover:transition ease-out duration-500">
                         <span className="text-2xl font-bold text-white tracking-wider">
                             Under Event App
                         </span>
                         <div className="pt-8 text-center">
                             <a href="/">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-125 hover:transition ease-out duration-500 hover:bg-lime-500">Demo</button>
                             </a>
                             <a href="/">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
+                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:scale-125 hover:transition ease-out duration-500 hover:bg-lime-500">Code</button>
                             </a>
                         </div>
                     </div>

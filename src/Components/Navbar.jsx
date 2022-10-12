@@ -44,25 +44,25 @@ const Navbar = () => {
             {/* SocialIcons */}
             <div className="hidden md:flex fixed flex-col top-80 left-0">
                 <ul>
-                    <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-blue-500">
+                    <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-gray-400 hover:bg-blue-500">
                         <a className="flex justify-between items-center w-full text-gray-300 pr-0" 
                         href="https://www.linkedin.com/in/tomastagliaferri-fullstack/">
                             LinkedIn <FaLinkedin size={30} />
                         </a>
                     </li>
-                    <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-gray-800">
+                    <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-gray-400 hover:bg-gray-800">
                         <a className="flex justify-between items-center w-full text-gray-300 pr-0" 
                         href="https://github.com/TomasTag">
                             Github <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-red-500">
+                    <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-gray-400 hover:bg-red-500">
                         <a className="flex justify-between items-center w-full text-gray-300 pr-0" 
                         href="">
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
-                    <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-blue-200">
+                    <li className="w-40 h-10 flex justify-between items-center -ml-20 hover:-ml-0 duration-300 bg-gray-400 hover:bg-blue-200">
                         <a className="flex justify-between items-center w-full text-gray-600 pr-0" 
                         href="/">
                             Resume <BsFillPersonLinesFill size={30} />
